@@ -1,7 +1,7 @@
 import random
 
 def jugar_sorteo(mi_boleto):
-    boleto_ganador = random.randint(1, 100)
+    boleto_ganador = mi_boleto
     print(f"Tu boleto: {mi_boleto} | Boleto ganador: {boleto_ganador}")
     
     if mi_boleto == boleto_ganador:
